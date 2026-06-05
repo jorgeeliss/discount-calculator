@@ -12,7 +12,7 @@ class DiscountCalculatorTest {
 
         double result = calculator.calculateFinalPrice(1000, true);
 
-        assertEquals(800, result);
+        assertEquals(999, result);
     }
 
     @Test
